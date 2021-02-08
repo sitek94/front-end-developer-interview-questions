@@ -48,4 +48,12 @@
     * Binary Logical Operators
 </details>
 
+<details>
+  <summary>What is ternary operator?</summary>
+  
+  * the only JavaScript operator that takes three operands
+  * shortened version of `if ... else` statement
+  * `condition ? ifTrueExpression : ifFalseExpression`
+</details>
+
 
