@@ -8,3 +8,19 @@
   * scopes can be nested inside another
   * variable name has to be unique within the same scope
 </details>
+
+<details>
+  <summary>How to empty an array?</summary>
+  
+  * substitute with a new array
+    ```js
+    let arr = [1, 2, 3];
+    arr = [];
+    ```
+  * set length of the array to 0
+     ```js
+    let arr = [1, 2, 3];
+    arr.length = 0;
+    ```
+</details>
+
