@@ -28,6 +28,19 @@
     * restrictions, some countries have blocked the domains or IP addresses of popular CDNs
 </details>
 
+<details>
+  <summary>What does DRY stands for?</summary>
+  
+  * Don't Repeat Yourself
+  * one of the Clean Code principles
+  * we should try not to repeat ourselves in the code
+  * if there is a lot of repetitions in our code it:
+    * is harder to read
+    * becomes suboptimal
+    * is harder to maintain and slow us down - in case of a bug we have to fix it in many places
+</details>
+
+
 
 
 
