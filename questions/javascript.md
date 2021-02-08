@@ -34,4 +34,18 @@
     * `typeof` - returns a string which is a type of operand
 </details>
 
+<details>
+  <summary>What is binary operator?</summary>
+  
+  * it works with two operands
+  * most operators are binary:
+    * Multiplicative Operators
+    * Additive Operators
+    * Bitwise Shift Operators
+    * Relational Operators
+    * Equality Operators
+    * Binary Bitwise Operators
+    * Binary Logical Operators
+</details>
+
 
