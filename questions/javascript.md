@@ -56,4 +56,19 @@
   * `condition ? ifTrueExpression : ifFalseExpression`
 </details>
 
+<details>
+  <summary>What is Symbol?</summary>
+  
+  * a new primitive data type introduced in ES6
+  * completely unique identifiers
+    ```js
+    let sym1 = Symbol('symbol');
+    let sym2 = Symbol('symbol');
+    console.log(sym1 === sym2) // → false
+    ```
+  * tokens that can be used as unique IDs
+  * the only purpose of the text in the parentheses is to identify the symbol
+</details>
+
+
 
