@@ -8,5 +8,26 @@
   * learning something new everyday
 </details>
 
+<details>
+  <summary>What is CDN?</summary>
+  
+  * Content Delivery Network
+  * services that allow us to use libraries, frameworks, etc. without the need to actually attach additional files
+    to our project.
+  * all we have to do is attach a script from cdn:
+  ```javascript
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  ```
+  * benefits:
+    * faster delivery of content - because CDN is a geographically distributed network, if our website is based in the UK and we get traffic from the U.S., it’s possible that your CDN provider has a server in the U.S. and will use that server for your website.
+    * more simultaneous users - large number of users can access the network at the same time without delays
+    * our project bundles is lighter so we don't clutter the server disk space
+  * disadvantages:
+    * CDN can fail to
+    * we don't know how long the services will be supported
+    * restrictions, some countries have blocked the domains or IP addresses of popular CDNs
+</details>
+
+
 
 
