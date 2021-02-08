@@ -24,3 +24,14 @@
     ```
 </details>
 
+<details>
+  <summary>What is unary operator?</summary>
+  
+  * it takes a single operand/argument and performs an operation
+  * examples:
+    * `!` logical NOT - converts to a boolean value then negates it
+    * `+` unary plus - tries to convert an operand to a number 
+    * `typeof` - returns a string which is a type of operand
+</details>
+
+
