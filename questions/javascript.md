@@ -116,5 +116,13 @@
     let a = { a: 10, b: { c: 10 } };
     let b = _.cloneDeep(a);
     ```
+</details>
 
+<details>
+  <summary>Is the data stored in localStorage visible in other apps (different domains)?</summary>
+ 
+  * the answer is **no**
+  * data stored in `localStorage` is specific to the protocol of the page
+  * In particular, data stored by a script on a site accessed with HTTP (e.g., http://example.com) 
+    is put in a different localStorage object from the same site accessed with HTTPS (e.g., https://example.com).
 </details>
