@@ -84,3 +84,37 @@
   * `Object`
   * `Function` - every function is derived from Object constructor
 </details>
+
+<details>
+  <summary>How to clone an object?</summary>
+  
+  * `Object.assign()` (copying by reference)
+    ```js
+    let a = { a: 10 };
+    let b = Object.assign({}, a);
+    ```
+  * `JSON.parse` and `JSON.stringify`
+    ```js
+    let a = { a: 10 };
+    let b = JSON.parse(JSON.stringify(a));
+    ```
+  * spread operator (copying by reference)
+    ```js
+    let a = { a: 10 };
+    let b = { ...a };
+    ```
+  * `for ... in` loop (copying by reference)
+    ```js
+    let a = { a: 10 };
+    let b = {};
+    for (let key in a) {
+      b[key] = a[key];
+    }
+    ```
+  * `cloneDeep` from Lodash
+    ```js
+    let a = { a: 10, b: { c: 10 } };
+    let b = _.cloneDeep(a);
+    ```
+
+</details>
