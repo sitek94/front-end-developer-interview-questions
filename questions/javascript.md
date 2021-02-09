@@ -3,10 +3,10 @@
 <details>
   <summary>What is Scope?</summary>
 
-  * each function has its own scope
-  * only the code inside the function can access the variables scoped in that function
-  * scopes can be nested inside another
-  * variable name has to be unique within the same scope
+- each function has its own scope
+- only the code inside the function can access the variables scoped in that function
+- scopes can be nested inside another
+- variable name has to be unique within the same scope
 </details>
 
 <details>
@@ -70,5 +70,17 @@
   * the only purpose of the text in the parentheses is to identify the symbol
 </details>
 
-
-
+<details>
+  <summary>What data types do you know?</summary>
+  
+  Primitives - their purpose is to hold a value
+  * `Undefined` 
+  * `Number`
+  * `String`
+  * `Boolean`
+  * `BigInt` - introduced in ES2020
+  * `Symbol`
+  Structural/reference types - they hold references to values
+  * `Object`
+  * `Function` - every function is derived from Object constructor
+</details>
