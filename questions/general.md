@@ -40,6 +40,14 @@
     * is harder to maintain and slow us down - in case of a bug we have to fix it in many places
 </details>
 
+<details>
+  <summary>What is npm?</summary>
+  
+  * node package manager
+    * an online repository that hosts JavaScript packages
+    * a CLI (command-line interface) for publishing and downloading packages
+</details>
+
 
 
 
