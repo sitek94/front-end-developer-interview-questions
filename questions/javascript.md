@@ -138,3 +138,11 @@
   * `NaN`
   * `''` empty string
 </details>
+
+<details>
+  <summary>Why &lt;scripts&gt; are usually added at the end of the body?</summary>
+ 
+  * otherwise we would slow down the loading of our page
+  * referencing the DOM elements in our script - we could use `DOMContentLoaded` event but
+    moving the script to the end of the body is faster and easier
+</details>
