@@ -126,3 +126,15 @@
   * In particular, data stored by a script on a site accessed with HTTP (e.g., http://example.com) 
     is put in a different localStorage object from the same site accessed with HTTPS (e.g., https://example.com).
 </details>
+
+<details>
+  <summary>What are falsy values?</summary>
+ 
+  * they are evaluated to false in conditionals
+  * `0` 
+  * `null`
+  * `undefined`
+  * `false`
+  * `NaN`
+  * `''` empty string
+</details>
