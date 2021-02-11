@@ -152,3 +152,18 @@
  
   * class is more like a schema and object can be created based on that schema
 </details>
+
+<details>
+  <summary>What data structures do you know?</summary>
+  
+  * Stack - last in first out
+  * Queue - first in first out
+  * Priority Queue - according to priority level
+  * Linked list - each node has thee data and pointer to the next node
+  * Set - similar to array but does not allow repeating elements and is not indexed
+  * Hash Table - key-value data structure. The same keys must return the same values
+  * Tree - multi-layer structure. Highly efficient during insert and search operations
+  * Trie - stores data step-by-step - each node in the tree represent a step
+  * Graph - sometimes known as network - refers to sets of nodes with linkages (edges)
+</details>
+
