@@ -48,6 +48,35 @@
     * a CLI (command-line interface) for publishing and downloading packages
 </details>
 
+<details>
+  <summary>What is API and REST API?</summary>
+  
+  * API - Application Programming Interface - it allows two applications to talk to each other
+  * Web APIs are usually accessed via URI (endpoints), for example:
+    ```
+    GET https://cinema.com/movies
+    [
+      { "name": "Tomb Raider", genre: "action", duration: "122" }
+    ]
+    ```
+  * ❌ Problems with architecture
+    ```
+    GET /books/all
+    GET /getallbooks
+    GET /books?all=true
+    ```
+  * ✅ Possible solution - **REST API**
+    * a standard
+    * an architectual style for an application program interface
+    * a pattern for creating web services
+    ```
+    GET /movies
+    POST /moviesl
+    PUT /movies/:id
+    DELETE /movies/:id
+    ```
+</details>
+
 
 
 
