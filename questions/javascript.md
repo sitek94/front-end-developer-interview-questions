@@ -146,3 +146,9 @@
   * referencing the DOM elements in our script - we could use `DOMContentLoaded` event but
     moving the script to the end of the body is faster and easier
 </details>
+
+<details>
+  <summary>What's the difference between class and object?</summary>
+ 
+  * class is more like a schema and object can be created based on that schema
+</details>
