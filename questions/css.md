@@ -16,3 +16,11 @@
 
   * [Link to a simple modal I built](https://codepen.io/sitek94/pen/xxEQpVq?editors=1100)
 </details>
+
+<details>
+  <summary>Describe inline-block element</summary>
+
+  * compared to `inline`: `inline-block` allows us to set width and height
+  * with `inline-block` the top and bottom margins/paddings are respected, with `inline`: not
+  * compared to `block`: `inline-block` does not add line-break after the element
+</details>
