@@ -24,3 +24,27 @@
   * with `inline-block` the top and bottom margins/paddings are respected, with `inline`: not
   * compared to `block`: `inline-block` does not add line-break after the element
 </details>
+
+<details>
+  <summary>What's the difference between a relative, fixed, absolute and statically positioned element?</summary>
+
+  * `static`
+    * default value
+    * the element is positioned according to the normal flow of the document
+    * `top`, `right`, `bottom`, `left`, and `z-index` properties have no effect
+  * `relative`
+    * the element is positioned according to the normal flow of the document
+    * offset relative to itself based on the values of `top`, `right`, `bottom`, `left`
+    * the offset does not affect other elements
+  * `absolute`
+    * the element is removed from the normal document flow
+    * it is positioned relative to its closest positioned ancestor, if any,  otherwise, it is placed relative to the initial containing block
+    * its final position is determined by the values of `top`, `right`, `bottom`, and `left`
+  * `fixed`
+    * the element is removed from the normal document flow, and no space is created for the element in the page layout
+    * its final position is determined by the values of `top`, `right`, `bottom`, and `left`
+    * it is positioned relative to the initial containing block established by the viewport
+  * `sticky`
+    * the element is positioned according to the normal flow of the document,
+    * offset relative to its nearest scrolling ancestor and containing block based on the values of `top`, `right`, `bottom`, `left`
+</details>
