@@ -26,7 +26,7 @@
 </details>
 
 <details>
-  <summary>What's the difference between a relative, fixed, absolute and statically positioned element?</summary>
+  <summary>Describe types of positioning</summary>
 
   * `static`
     * default value
