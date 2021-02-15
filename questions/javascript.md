@@ -167,3 +167,21 @@
   * Graph - sometimes known as network - refers to sets of nodes with linkages (edges)
 </details>
 
+
+<details>
+  <summary>What is hoisting?</summary>
+  
+  * mechanism of moving all the declarations to the top of the current scope
+  * a variable can be used before it was declared
+    ```js
+    // This will work of course
+    var a;
+    a = 10;
+    console.log(a);
+
+    // But this also, because of hoisting
+    a = 10;
+    console.log(a);
+    var a;
+    ```
+</details>
