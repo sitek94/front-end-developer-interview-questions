@@ -4,7 +4,8 @@
   <summary>What is Scope?</summary>
 
 - each function has its own scope
-- only the code inside the function can access the variables scoped in that function
+- only the code inside the function can access the variables scoped in that
+  function
 - scopes can be nested inside another
 - variable name has to be unique within the same scope
 </details>
@@ -167,7 +168,6 @@
   * Graph - sometimes known as network - refers to sets of nodes with linkages (edges)
 </details>
 
-
 <details>
   <summary>What is hoisting?</summary>
   
@@ -184,4 +184,12 @@
     console.log(a);
     var a;
     ```
+
+</details>
+
+<details>
+  <summary>What is pure function?</summary>
+  
+  * its return value is always the same for the same set of arguments
+  * no side-effects (no changing the variables outside of its scope)
 </details>
